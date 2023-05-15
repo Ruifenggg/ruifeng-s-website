@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(lightcyan, grey);
+}
+
+.content {
+    font-family: 'Source Code Pro', monospace;
+    height: 504px;
+    width: 385.5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .images{
+    height: 100%;
+    width: 100%;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+
+.content .slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.slide i{
+    font-size: 35px;
+    color: white;
+}
+
+.content .right{
+    right: 0;
+}

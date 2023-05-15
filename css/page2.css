@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(lightcyan, grey);
+}
+
+.home-icon {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+.home-icon:hover {
+    cursor: pointer;
+    color: #333333;
+}
